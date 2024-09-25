@@ -23,4 +23,9 @@ MongoDB is designed to handle large, unstructured data sets, and it can horizont
 For applications where high read/write throughput is essential (e.g., web applications, real-time analytics), NoSQL databases often outperform relational databases due to their ability to efficiently distribute data across multiple nodes.
 MongoDB’s document-based structure allows for faster access times for large datasets, particularly when querying non-relational data.
 
+# Important notes:
+In this project, we did not provide our own credentials (user, password, database name ect...) for the databases. 
+It is mandatory for the reader to provide their own credentials whenever required for the code to run succesfully.
+In order to get the required credentials, the reader must set up both PostgreSQL and MongoDB manually before proceeding.
+
 
