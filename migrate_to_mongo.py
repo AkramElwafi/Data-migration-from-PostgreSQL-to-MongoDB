@@ -2,10 +2,10 @@ import psycopg2
 from pymongo import MongoClient
 
 pg_conn = psycopg2.connect(
-    host="localhost",   
-    database="postgres",
-    user="postgres",
-    password="kraman"
+    host="localhost",
+    database="your-db",
+    user="your-username",
+    password="your-password"
 )
 
 pg_cursor = pg_conn.cursor()
